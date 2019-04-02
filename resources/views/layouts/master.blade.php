@@ -27,8 +27,8 @@
       </li>-->
     </ul>
 
-    <!-- SEARCH FORM -->
-    <div class="form-inline ml-3">
+    <!-- SEARCH FORM 
+     <div class="form-inline ml-3">
         <img src="{!! asset('/img/search.png') !!}"   class="brand-image img-responsive">
       <div class="input-group input-group-sm">
         <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
@@ -38,7 +38,7 @@
           </button>
         </div>
       </div>
-    </div>
+    </div>-->
 
         <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
@@ -115,9 +115,9 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="/" class="brand-link">
+    <a href="/" class="brand-link text-center">
       <img src="{!! asset('/img/startup.png') !!}" alt="AdminLTE Logo" class="brand-image elevation-3">
-      <span class="brand-text font-weight-light teal"> <i> <b>UATFTRANS </b> </i></span>
+      <span class="brand-text font-weight-light teal "> <i> <b>UATFTRANS </b> </i></span>
     </a>
 
     <!-- Sidebar -->
