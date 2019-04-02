@@ -10,7 +10,7 @@
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="/css/app.css">
-   <link rel="shortcut icon" href="{!! URL::to('/img/bus.png') !!}" />
+   <link rel="shortcut icon" href="{{ asset('/img/bus.png') }}" />
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper" id="app">
@@ -45,14 +45,14 @@
       <!-- Messages Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
-          <img src="{!! asset('/img/sms.png') !!}"   class="brand-image " >
+          <img src="{{ asset('/img/sms.png') }}"   class="brand-image " >
           <i class="green"> <b> Mensajes </b></i>
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="{!! asset('/img/linux.png') !!}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="{{ asset('/img/linux.png') }}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -68,7 +68,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="{!! asset('/img/linux.png') !!}" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="{{ asset('/img/linux.png') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -84,7 +84,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="{!! asset('/img/linux.png') !!}" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="{{ asset('/img/linux.png') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -103,7 +103,7 @@
       <!-- Notifications Dropdown Menu -->
       <li class="nav-item d-none d-sm-inline-block">
         <a href="index3.html" class="nav-link">
-          <img src="{!! asset('/img/alert.png') !!}"   class="brand-image " >
+          <img src="{{ asset('/img/alert.png') }}"   class="brand-image " >
           <i class="green"> <b> Notificaciones </b></i>
         </a>
       </li>
@@ -116,7 +116,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/" class="brand-link text-center">
-      <img src="{!! asset('/img/startup.png') !!}" alt="AdminLTE Logo" class="brand-image elevation-3">
+      <img src="{{ asset('/img/startup.png') }}" alt="AdminLTE Logo" class="brand-image elevation-3">
       <span class="brand-text font-weight-light teal "> <i> <b>UATFTRANS </b> </i></span>
     </a>
 
