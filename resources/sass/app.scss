@@ -1,0 +1,92 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/*	Tipo de letra del body */
+body{ 
+    font-family: "Times New Roman", Times, serif;
+}
+
+.router-link-exact-active{
+	background-color: rgba(0, 52, 102, 0.8);
+	color: #fff !important;
+}
+
+.sidebar-dark-primary{
+  background-color: #011620;
+}
+ 
+.control-sidebar-dark::before {
+    background: #011620;
+}
+
+.main-header {
+	background-color: #c9ece8 !important;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #4dc0b5 !important;
+}
+
+[class*="sidebar-dark"] .user-panel {
+    border-bottom: 1px solid #4dc0b5 !important;
+}
+[class*="sidebar-dark"] .brand-link { 
+    border-bottom: 1px solid #4dc0b5 !important; 
+}
+
+.table th {
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgba(0, 52, 102, 0.8);
+}
+
+.modal-header { 
+    border-bottom: 1px solid #4dc0b5 !important; 
+}
+
+.modal-footer { 
+    border-top: 1px solid #4dc0b5 !important; 
+}
+
+
+@media print {
+    .nav.nav-tabs li:not(.active){
+        display: none;
+    }
+    .invoice{
+    	padding: 10px 20px;
+    }
+
+    .invoice{
+		background-position: center center;
+		background-repeat: no-repeat;
+
+	}
+	.table-responsive table{
+		background-color: transparent !important;
+	}
+
+}
+
+@page {
+    margin: 10px;
+}
